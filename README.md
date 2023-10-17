@@ -1,5 +1,3 @@
-
-    </style>
 </head>
 <body>
     <h1>Bienvenido a mi sitio web</h1>
