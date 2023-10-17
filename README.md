@@ -34,7 +34,7 @@
 <body>
     <h1>Bienvenido a mi sitio web</h1>
     <p>Soy Atiecia Cevallos José Vicente</p>
-    <img src="https://github.com/AtienciaJ/AtienciaJ/settings" alt="Mi imagen personal">
+    <img src="https://i.imgur.com/cM7iSPc.jpg" alt="Mi imagen personal">
     
     <div class="social-links">
         <a href="https://www.facebook.com/TuPerfilDeFacebook" target="_blank">Facebook</a>
