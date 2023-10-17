@@ -1,45 +1,74 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi Página Web</title>
     <style>
         body {
-            background-color: #000;
-            color: #fff;
+            background: linear-gradient(135deg, #000, #3E4095); /* Fondo con degradado de negro a azul metálico oscuro */
             text-align: center;
-            font-family: 'TuFuentePersonalizada', Arial, sans-serif; /* Reemplaza 'TuFuentePersonalizada' con la fuente que desees usar */
+            font-family: Georgia, 'Times New Roman', Times, serif;
         }
         h1, p {
-            color: #fff;
+            color: transparent;
+            text-align: center;
+            font-size: 36px;
+            animation: rainbow 5s infinite linear; /* Agrega animación de arcoíris */
+        }
+        @keyframes rainbow {
+            0% { color: #E91E63; }
+            10% { color: #9C27B0; }
+            20% { color: #673AB7; }
+            30% { color: #3F51B5; }
+            40% { color: #2196F3; }
+            50% { color: #00BCD4; }
+            60% { color: #009688; }
+            70% { color: #4CAF50; }
+            80% { color: #8BC34A; }
+            90% { color: #CDDC39; }
+            100% { color: #FFC107; }
+        }
+        p {
+            font-size: 18px;
         }
         img {
             max-width: 100%;
             height: auto;
             display: block;
-            margin: 0 auto; /* Centra horizontalmente */
+            margin: 0 auto;
         }
         .social-links {
             margin-top: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
         }
-        .social-links a {
-            display: inline-block;
-            margin: 0 10px;
-            color: #fff;
-            text-decoration: none;
+        .social-logos {
+            margin: 0 30px;
+        }
+        .social-logos img {
+            width: 100px;
         }
     </style>
 </head>
 <body>
     <h1>Bienvenido a mi sitio web</h1>
-    <p>Soy Atiecia Cevallos José Vicente</p>
+    <p>Soy Atiencia Cevallos José Vicente</p>
     <img src="https://i.imgur.com/cM7iSPc.jpg" alt="Mi imagen personal">
-    
+    <p>Mis redes sociales son:</p>
     <div class="social-links">
-        <a href="https://www.facebook.com/TuPerfilDeFacebook" target="_blank">Facebook</a>
-        <a href="https://twitter.com/TuPerfilDeTwitter" target="_blank">Twitter</a>
-        <a href="https://www.instagram.com/TuPerfilDeInstagram" target="_blank">Instagram</a>
+        <div class="social-logos">
+            <a href="https://www.facebook.com/profile.php?id=100012010609495" target="_blank">
+                <img src="https://i.imgur.com/R9o4RXV.jpg" alt="Facebook" />
+            </a>
+        </div>
+        <div class="social-logos">
+            <a href="https://www.instagram.com/atienciaj11/" target="_blank">
+                <img src="https://i.imgur.com/ExhC6PQ.png" alt="Instagram" />
+            </a>
+        </div>
     </div>
 </body>
 </html>
